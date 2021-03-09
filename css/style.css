@@ -1507,7 +1507,7 @@ h3 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: #2453ca;
+	background-image: url(../img/bgr/yellow_bc.jpg);
 	position: relative;
 	z-index: 0
 }
@@ -2307,18 +2307,6 @@ h3 {
 	padding-left: 30px!important
 }
 
-.popular_destination_area {
-   
-    padding-top: 140px;
-	padding-bottom: 120px;
-    
-
-    background: url("../img/slider/backdrop.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 @media(max-width:767px) {
 	.popular_destination_area {
@@ -5931,3 +5919,32 @@ timeline
 }
 
 
+.TexBolds{
+	font-feature-settings: "liga" 0;
+	line-height: 1;
+	text-shadow: 0 2px 3px rgba(35, 46, 46, 0.5);
+	font-family: IBM Plex Mono,monospace;
+	font-weight: 800;
+	font-size: 5rem;
+	text-align: left;
+	color: #12da6c;
+	box-sizing: inherit;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	text-align: center;
+}		
+
+
+.BoldtExt{
+	font-feature-settings: "liga" 0;
+            line-height: 1;
+            font-family: IBM Plex Mono,monospace;
+            font-weight: 800;
+            font-size: 1.2rem;
+            text-align: left;
+            color: #213a1b;
+            box-sizing: inherit;
+            overflow: hidden;
+            text-overflow: ellipsis;
+}
